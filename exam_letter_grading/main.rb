@@ -15,6 +15,8 @@ case grade
     puts "Letter Grade E"
   when 0..50
     puts "Letter Grade F"
+  else
+    puts "The max grade is 100. Please enter the valid number."
 end
 
 puts result
